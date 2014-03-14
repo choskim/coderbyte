@@ -5,7 +5,7 @@ This repository contains my implementation for code challenges found on [Coderby
 Many of the identifers used in Coderbyte are unconventional. I have, in turn, re-named many of them to fit current naming conventions. 
 
 ### Progress on Challenges: ###
-- Easy Difficulty (2/26)
+- Easy Difficulty (3/26)
 - Medium Difficulty (0/29)
 - Hard Difficulty (0/16)
 

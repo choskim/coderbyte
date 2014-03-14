@@ -1,5 +1,6 @@
 var coderbyte = coderbyte || {};
 
+// Version 1: A for-loop that has an artificial termination. 
 coderbyte.reverseString = function(string) {
   var stringReversed = "",
       i, 

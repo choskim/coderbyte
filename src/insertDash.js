@@ -16,3 +16,14 @@ coderbyte.insertDash = function(integer) {
 
   return integerAsStringWithDashes;
 };
+
+// Version 2: A regular expression. 
+// coderbyte.insertDash = function(integer) {
+//   var integerAsString           = integer.toString(), 
+//       regex                     = /([13579])(?=[13579])/g,
+//       integerAsStringWithDashes = "";
+
+//   integerAsStringWithDashes = integerAsString.replace(regex, "$1-");
+
+//   return integerAsStringWithDashes; 
+// };

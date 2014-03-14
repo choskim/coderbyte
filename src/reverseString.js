@@ -10,4 +10,18 @@ coderbyte.reverseString = function(string) {
   }
 
   return stringReversed;
-}
+};
+
+// Version 2: A for-loop that has a natural termination. 
+// coderbyte.reverseString = function(string) {
+//   var stringReversed = "",
+//       i, 
+//       len;
+
+//   for (len = string.length; len; len--) {
+//     i = len -1;    
+//     stringReversed += string[i];
+//   }
+
+//   return stringReversed;
+// };

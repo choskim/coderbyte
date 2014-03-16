@@ -14,9 +14,9 @@ coderbyte.countVowel = function(string) {
   }	
 
   for (j = 0, len = string.length; j < len; j++) {
-  	if (obj[string[j]]) {
-  	  count++;
-  	}
+    if (obj[string[j]]) {
+      count++;
+    }
   }
 
   return count;

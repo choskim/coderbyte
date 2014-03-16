@@ -5,7 +5,7 @@ coderbyte.calculateFactorial = function (integer) {
   var product = 1;
 
   while (integer) {
-  	product = product * integer; 
+    product = product * integer; 
     
     integer--;
   }

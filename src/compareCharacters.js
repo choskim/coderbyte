@@ -13,11 +13,11 @@ coderbyte.compareCharacters = function(string) {
   }
 
   for (i = 0, len = string.length; i < len; i++) {
-  	if (obj[string[i]] === undefined) {
-  	  obj[string[i]] = 0;
-  	} 
+	  if (obj[string[i]] === undefined) {
+	    obj[string[i]] = 0;
+	  } 
 
-  	obj[string[i]]++;
+	  obj[string[i]]++;
   }
 
   equalNumberOfCharacters = string.length / Object.keys(obj).length;

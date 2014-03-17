@@ -4,8 +4,9 @@ var coderbyte = coderbyte || {};
 coderbyte.getLongestWord = function(string) {
   var sanitizedSentence = string.replace(/[^a-z]+/gi, " "),
       words             = sanitizedSentence.split(" "),
-      longestWord       = "";
-      i;
+      longestWord       = "",
+      i,
+      len;
 
   for (i = 0, len = words.length; i < len; i++) {
     if (words[i].length > longestWord.length) {

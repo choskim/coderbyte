@@ -9,7 +9,8 @@ function addUpTo(num){
     total+=i;
     i++;
   }
-
+  
   return total;
 }
+
 console.log(addUpTo(100));
